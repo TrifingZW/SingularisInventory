@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "0.1.0",
 	"FriendlyName": "SingularisInventory",
-	"Description": "基于 Unreal Engine 5 的纯 C++ 库存，蓝图友好，无运行时性能损耗。",
+	"Description": "基于 Unreal Engine 5 的纯 C++ 库存系统，蓝图友好，无运行时性能损耗。",
 	"Category": "Other",
 	"CreatedBy": "TrifingZW",
 	"CreatedByURL": "",
