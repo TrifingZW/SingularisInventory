@@ -28,7 +28,7 @@ public:
 
 	UFUNCTION(
 		BlueprintCallable,
-		Category="库存控件函数",
+		Category="库存控件|函数",
 		meta = (
 			DisplayName = "显示库存控件",
 			ToolTip = "显示库存控件"
@@ -38,7 +38,7 @@ public:
 
 	UFUNCTION(
 		BlueprintCallable,
-		Category="库存控件函数",
+		Category="库存控件|函数",
 		meta = (
 			DisplayName = "隐藏库存控件",
 			ToolTip = "隐藏库存控件"
@@ -53,7 +53,7 @@ public:
 	UFUNCTION(
 		BlueprintImplementableEvent,
 		BlueprintCallable,
-		Category="库存控件接口",
+		Category="库存控件|接口",
 		meta=(DisplayName="设置槽位控件数量",
 			ToolTip = "设置槽位控件的数量"
 		)
@@ -63,7 +63,7 @@ public:
 	UFUNCTION(
 		BlueprintImplementableEvent,
 		BlueprintCallable,
-		Category="库存控件接口",
+		Category="库存控件|接口",
 		meta=(DisplayName="设置选中槽位控件",
 			ToolTip = "设置选中的槽位控件"
 		)
@@ -73,7 +73,7 @@ public:
 	UFUNCTION(
 		BlueprintImplementableEvent,
 		BlueprintCallable,
-		Category="库存控件接口",
+		Category="库存控件|接口",
 		meta = (
 			DisplayName = "设置槽位控件物品",
 			ToolTip = "根据索引设置指定槽位控件所显示的物品"
@@ -84,7 +84,7 @@ public:
 	UFUNCTION(
 		BlueprintImplementableEvent,
 		BlueprintCallable,
-		Category="库存控件接口",
+		Category="库存控件|接口",
 		meta = (
 			DisplayName = "清空槽位控件物品",
 			ToolTip = "根据索引清除指定槽位控件所显示的物品"
