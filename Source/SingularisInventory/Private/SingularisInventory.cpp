@@ -1,4 +1,11 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+/* =====================================================================
+ * SingularisInventory.cpp
+ * SPDX-License-Identifier: MIT
+ * SPDX-FileCopyrightText: 2024 TrifingZW <TrifingZW@gmail.com>
+ * 
+ * Copyright (c) 2024 TrifingZW
+ * Licensed under MIT License
+ * ===================================================================== */
 
 #include "SingularisInventory.h"
 
@@ -6,13 +13,13 @@
 
 void FSingularisInventoryModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	// 这段代码将在你的模块加载到内存后执行；具体的时间安排在每个模块的.uplugin文件中指定。
 }
 
 void FSingularisInventoryModule::ShutdownModule()
 {
-	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
-	// we call this function before unloading the module.
+	// 此函数可能在关闭时被调用以清理你的模块。对于支持动态重载的模块，
+	// 我们会在卸载模块之前调用此函数。
 }
 
 #undef LOCTEXT_NAMESPACE

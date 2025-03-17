@@ -1,24 +1,33 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "0.1.0",
-	"FriendlyName": "SingularisInventory",
-	"Description": "基于 Unreal Engine 5 的纯 C++ 库存系统，蓝图友好，无运行时性能损耗。",
-	"Category": "Other",
-	"CreatedBy": "TrifingZW",
-	"CreatedByURL": "",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"CanContainContent": true,
-	"IsBetaVersion": true,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "SingularisInventory",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "SingularisInventory",
+  "Description": "基于 Unreal Engine 5 的纯 C++ 库存系统，蓝图友好，无运行时性能损耗。",
+  "Category": "Other",
+  "CreatedBy": "TrifingZW",
+  "CreatedByURL": "https://github.com/TrifingZW",
+  "DocsURL": "https://github.com/TrifingZW/SingularisInventory/wiki",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/TrifingZW/SingularisInventory/issues",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "SingularisInventory",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WritelistPlatforms": [
+        "Win64"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 /* =====================================================================
- * SingularisInventory.h
+ * BaseItemData.cpp
  * SPDX-License-Identifier: MIT
  * SPDX-FileCopyrightText: 2024 TrifingZW <TrifingZW@gmail.com>
  * 
@@ -7,14 +7,6 @@
  * Licensed under MIT License
  * ===================================================================== */
 
-#pragma once
 
-#include "Modules/ModuleManager.h"
+#include "BaseItem.h"
 
-class FSingularisInventoryModule final : public IModuleInterface
-{
-public:
-	/** IModuleInterface 实现 */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-};

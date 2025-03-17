@@ -1,5 +1,5 @@
 /* =====================================================================
- * SingularisInventory.h
+ * BaseItemActor.cpp
  * SPDX-License-Identifier: MIT
  * SPDX-FileCopyrightText: 2024 TrifingZW <TrifingZW@gmail.com>
  * 
@@ -7,14 +7,24 @@
  * Licensed under MIT License
  * ===================================================================== */
 
-#pragma once
 
-#include "Modules/ModuleManager.h"
+#include "BaseItemActor.h"
 
-class FSingularisInventoryModule final : public IModuleInterface
+ABaseItemActor::ABaseItemActor()
 {
-public:
-	/** IModuleInterface 实现 */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-};
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+void ABaseItemActor::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+void ABaseItemActor::Tick(const float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+

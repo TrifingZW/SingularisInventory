@@ -1,5 +1,5 @@
 /* =====================================================================
- * SingularisInventory.h
+ * InventoryWidget.cpp
  * SPDX-License-Identifier: MIT
  * SPDX-FileCopyrightText: 2024 TrifingZW <TrifingZW@gmail.com>
  * 
@@ -7,14 +7,14 @@
  * Licensed under MIT License
  * ===================================================================== */
 
-#pragma once
+#include "InventoryWidget.h"
 
-#include "Modules/ModuleManager.h"
-
-class FSingularisInventoryModule final : public IModuleInterface
+void UInventoryWidget::ShowWidget()
 {
-public:
-	/** IModuleInterface 实现 */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-};
+	SetVisibility(ESlateVisibility::Visible);
+}
+
+void UInventoryWidget::HideWidget()
+{
+	SetVisibility(ESlateVisibility::Hidden);
+}
